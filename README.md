@@ -10,7 +10,8 @@ This is a Python-based Telegram bot that allows users to retrieve their exam res
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
+## BOT NAME
+- **TELEGRAM BOT**: @Maharajasuheldevbot
 ## Features
 
 - **Welcome Message**: Sends a welcome message when the user starts the bot.
@@ -23,26 +24,19 @@ This is a Python-based Telegram bot that allows users to retrieve their exam res
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/telegram-result-bot.git
-   cd telegram-result-bot
+   git clone https://github.com/SurajxTech/msdu.git
+   cd msdu
    ```
 
 2. **Install Dependencies**
    Ensure you have Python 3.x and pip installed, then run:
    ```bash
-   pip install pyTelegramBotAPI requests Flask
+   pip install -r requirements.txt
    ```
-
-3. **Configure Your Bot Token**
-   Replace the placeholder token in your script with your actual Telegram bot token:
-   ```python
-   TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-   ```
-
-4. **Run the Bot**
+3. **Run the Bot**
    Execute the script to start the bot:
    ```bash
-   python your_bot_script.py
+   python result.py
    ```
 
 ## Usage
@@ -61,6 +55,8 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch
 5. Open a pull request
 
+## OWNER 
+- **SURAJ CHAUHAN**
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
